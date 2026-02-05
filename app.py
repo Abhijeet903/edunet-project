@@ -15,9 +15,6 @@ st.title("🌍 AI-Based Urban Heat Island Risk Prediction System")
 # -------------------- LOAD DATA --------------------
 df = pd.read_csv("green_heat_data.csv")
 
-st.subheader("📂 Dataset Preview")
-st.dataframe(df.head())
-
 # -------------------- FEATURES --------------------
 X = df.drop("heat_risk_score", axis=1)
 y = df["heat_risk_score"]
