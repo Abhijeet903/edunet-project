@@ -94,13 +94,3 @@ ax2.scatter(df["temperature"], df["heat_risk_score"])
 ax2.set_xlabel("Temperature (°C)")
 ax2.set_ylabel("Heat Risk Score")
 st.pyplot(fig2)
-
-# -------------------- USE CASE --------------------
-st.subheader("🏙 Smart City Impact")
-st.write("""
-This AI system helps:
-- Identify urban heat hotspots  
-- Guide tree plantation planning  
-- Support climate-resilient city development  
-- Assist municipal environmental decision-making
-""")
